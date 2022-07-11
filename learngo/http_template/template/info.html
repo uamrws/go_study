@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my info</title>
+</head>
+<body>
+<!--{{ range $idx,$user:=. }}-->
+<!--<h1>{{$user.Name}}</h1>-->
+<!--<h1>{{$user.Phone}}</h1>-->
+<!--{{end}}-->
+<h1>{{ index . 1}}</h1>
+{{ with index . 1}}
+<h1>{{ hello .Name }}</h1>
+{{ end }}
+</body>
+</html>

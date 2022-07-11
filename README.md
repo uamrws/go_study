@@ -1,2 +1,2 @@
 # go_study
-the examination of go study
+go学习记录
